@@ -67,3 +67,73 @@ footer {
   height: 50px;
   background-color: #aaaaaa;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  .main-contents {
+    width: 100%;
+    display: block;
+  }
+
+  .contents {
+    width: 85%;
+    padding: 18px;
+    margin: 30px auto;
+  }
+
+  h3 {
+    font-weight: normal;
+    padding: 25px 0 5px 0;
+    font-size: 25px;
+  }
+
+  .sub-text {
+    padding: 4px;
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+
+  .photo1 {
+    background-image: url(img2/flow01.png);
+    height: 225px;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .photo2 {
+    background-image: url(img2/flow02.png);
+    height: 225px;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .photo3 {
+    background-image: url(img2/flow03.png);
+    height: 225px;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .contents:first-child {
+    margin-top: 0;
+  }
+
+  .contents:nth-child(2) {
+    margin-top: 0;
+  }
+
+  .contents:last-child {
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
